@@ -11,7 +11,9 @@
 body{
     background-color: black;
     margin: 0;
-    overflow-x: hidden
+    overflow-x: hidden;
+    background-attachment: fixed;
+    background-position: bottom;
 }
 
    #bemvindo{
@@ -119,10 +121,11 @@ a:hover{
       }
       
       img{
-        width: 44vw;
+        width: 42vw;
         display: block;
         margin: 0 auto;
         margin-right: 400vw;
+        margin-left: 0vw;
         border-radius: 2vw;
         margin-bottom: 1vh;
         margin-top: -0.5vh;
@@ -153,7 +156,7 @@ a:hover{
     padding-top: 10vh;
     position: absolute;
     left: 50%;
-    transform: translateX(3vh);
+    transform: translateX(5vh);
     text-shadow: 0.1vw -0.1vw #686868;
 
 }
@@ -162,7 +165,7 @@ a:hover{
         font-size: 1.1vw;
         font-family: "Bebas Neue", sans-serif;
         font-weight: lighter;
-        padding-right: 12vw;
+        padding-right: 13vw;
 
     }
     .musicas {
